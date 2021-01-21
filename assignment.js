@@ -1,6 +1,6 @@
 function kilometerToMeter(kilometer) {
     var convertToMeter = (kilometer * 1000);
-    if(kilometer <= 0){
+    if (kilometer <= 0) {
         console.log("Invalid input");
     }
 
@@ -25,7 +25,7 @@ function hotelCost(day) {
     var secondPart = 80; // cost of 11th days to 20th days
     var thirdPart = 50; // cost of 20th days to nth days
 
-    if(day <= 0){
+    if (day <= 0) {
         console.log("Invalid input"); // for negative value
     }
     else if (day <= 10) {
@@ -56,5 +56,3 @@ function megaFriend(friends) {
     }
     return largestName;
 }
-
-
